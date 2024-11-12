@@ -22,11 +22,11 @@ function popInvitation() {
 function imageAnimation(){
 	const bBoy = document.querySelector('img');
 	bBoy.style.transitionDuration = '3s';
-	bBoy.style.transform = `translate(85%, -180%) scale(1.2)`;
+	bBoy.style.transform = `translate(185%, -20%) scale(1.2)`;
 
 	setTimeout(() => {
 		bBoy.style.transitionDuration = '0.6s';
-		bBoy.style.transform = `translate(85%, -180%) scale(1)`;
+		bBoy.style.transform = `translate(185%, -20%) scale(1)`;
 
 	}, 3000);
 }
